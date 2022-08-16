@@ -1,0 +1,29 @@
+<mat-card style="width: 500px;">
+  <mat-card-title>Standalone Repo info Component</mat-card-title>
+  <mat-card-content>
+    <div class="row">
+      <div class="mat-caption">
+        Name: <span class="mat-subtitle">Piyush Agarwal</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="mat-caption">
+        Repo Link:
+        <a
+          target="_blank"
+          href="https://github.com/knoldus/Angular-Standalone-Component"
+          >Standalone Component</a
+        >
+      </div>
+    </div>
+  </mat-card-content>
+  <mat-card-content>
+    <p>
+      Standalone Component work independently.
+      We are using lazy loading to load our components.Our component is not defined in NgModule..
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button (click)="navigateToBook()" mat-button>Check Book Component</button>
+  </mat-card-actions>
+</mat-card>
